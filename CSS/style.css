@@ -415,6 +415,11 @@ li.dragging :where(.text, .icons) {
   margin-left: 0.5rem;
   text-wrap: pretty;
 }
+@media (max-width: 767px) {
+  .task-list li .text p {
+    font-size: .9rem;
+  }
+}
 #edit,
 #delete {
   all: unset;
