@@ -1,3 +1,4 @@
+// Global Variables
 let taskInput = document.querySelector("[type='text']")
 let addTaskBtn = document.querySelector("#addTask");
 let taskList = document.querySelector(".task-list");
@@ -190,7 +191,3 @@ const blaskConfetti = () => {
       setTimeout(shoot, 100);
       setTimeout(shoot, 200);
 }
-
-// const clearTasksList = ()=> {
-
-// }
