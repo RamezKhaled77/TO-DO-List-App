@@ -457,7 +457,7 @@ body.dark-mode .task-list li .icons #delete i {
     font-size: 1.3rem;
   }
   .task-list li .icons i:nth-child(1) {
-    padding-right: 0.7rem;
+    padding-right: 0.5rem;
   }
 }
   /* SECTION - End Tasks List */
