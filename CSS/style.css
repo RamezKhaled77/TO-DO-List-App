@@ -431,6 +431,7 @@ li.dragging :where(.text, .icons) {
 }
 @media (max_width: 767px) {
   .task-list li .icons {
+    gap: 0;
     display: block;
     width: 100%;
     text-align: end;
@@ -454,7 +455,7 @@ body.dark-mode .task-list li .icons #delete i {
 }
 @media (max-width: 767px) {
   .task-list li .icons i {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .task-list li .icons i:nth-child(1) {
     padding-right: 0.5rem;
