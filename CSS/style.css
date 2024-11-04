@@ -318,7 +318,7 @@ body {
   }
   /* SECTION - End Add Task Field */
   /* SECTION - Start Tasks List */
-  .task-list {
+    .task-list {
     width: 100%;
     background-color: var(--background-color);
     padding: 30px;
@@ -429,7 +429,7 @@ li.dragging :where(.text, .icons) {
   display: flex;
   gap: 1.3rem;
 }
-@media (max_width: 767px) {
+@media (max-width: 767px) {
   .task-list li .icons {
     gap: 0;
     display: block;
@@ -455,9 +455,9 @@ body.dark-mode .task-list li .icons #delete i {
 }
 @media (max-width: 767px) {
   .task-list li .icons i {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
-  .task-list li .icons i:nth-child(1) {
+  .task-list li .icons #edit i {
     padding-right: 0.5rem;
   }
 }
