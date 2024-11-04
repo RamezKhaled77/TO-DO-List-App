@@ -349,7 +349,8 @@ li.dragging :where(.text, .icons) {
 }
 @media (max-width: 767px) {
   .task-list li {
-    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
     gap: 15px;
     padding: 10px;
   }
