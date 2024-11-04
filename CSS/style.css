@@ -430,8 +430,9 @@ li.dragging :where(.text, .icons) {
 }
 @media (max_width: 767px) {
   .task-list li .icons {
-    display: flex;
-    gap: 2rem;
+    display: block;
+    width: 100%;
+    text-align: end;
   }
 }
 .task-list li .icons i {
@@ -449,6 +450,14 @@ body.dark-mode .task-list li .icons #delete i {
 }
 .hidden-xs-up {
  display: none!important;
+}
+@media (max-width: 767px) {
+  .task-list li .icons i {
+    font-size: 1.3rem;
+  }
+  .task-list li .icons i:nth-child(1) {
+    padding-right: 0.7rem;
+  }
 }
   /* SECTION - End Tasks List */
  /* SECTION - Start Switch Mode Btn */
